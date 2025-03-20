@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "c11051cc-26b3-471c-b49c-bc344ecd93ee",
+		"name": "TransportationTask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27963248"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/transports",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vbWJuLXByb3ZpZGVyLmF1dGhlbnRpY2F0aW9uLmV1MTIuaGFuYS5vbmRlbWFuZC5jb20vdG9rZW5fa2V5cyIsImtpZCI6ImRlZmF1bHQtand0LWtleS02ZTdiZWY2NTNjIiwidHlwIjoiSldUIiwiamlkIjogIjdkcFIvK2VhaGlGRVArQnVPYzVGVUR4MHh1M3p1cEUyVnBLdEhCYUluMEE9In0.eyJqdGkiOiJjZGQ1ZmUwOGMzMzI0MmFhOGI2ZmZkZWNhZTY5YTJlOCIsImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJzdWJhY2NvdW50aWQiOiI3Y2E2NjU3MS04YjU4LTQ4ODUtODM4Zi1kMmJkNTQ2YjY4NTUiLCJ6ZG4iOiJtYm4tcHJvdmlkZXIifSwic3ViIjoic2ItaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3IiwiYXV0aG9yaXRpZXMiOlsidWFhLnJlc291cmNlIiwiaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3LnRyYW5zcG9ydGNyZWF0ZSIsImludGVydmlld19kZW1vX3RyYW5zcG9ydF9hcHAhYjkyMzU5Ny50cmFuc3BvcnR1cGRhdGUiLCJpbnRlcnZpZXdfZGVtb190cmFuc3BvcnRfYXBwIWI5MjM1OTcudHJhbnNwb3J0ZGVsZXRlIiwiaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3LnRyYW5zcG9ydHJlYWQiXSwic2NvcGUiOlsiaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3LnRyYW5zcG9ydHJlYWQiXSwiY2xpZW50X2lkIjoic2ItaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3IiwiY2lkIjoic2ItaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3IiwiYXpwIjoic2ItaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3IiwiZ3JhbnRfdHlwZSI6ImNsaWVudF9jcmVkZW50aWFscyIsInJldl9zaWciOiI3YmVjOTljIiwiaWF0IjoxNzQyNDcxOTc2LCJleHAiOjE3NDI0NzI4NzYsImlzcyI6Imh0dHBzOi8vbWJuLXByb3ZpZGVyLmF1dGhlbnRpY2F0aW9uLmV1MTIuaGFuYS5vbmRlbWFuZC5jb20vb2F1dGgvdG9rZW4iLCJ6aWQiOiI3Y2E2NjU3MS04YjU4LTQ4ODUtODM4Zi1kMmJkNTQ2YjY4NTUiLCJhdWQiOlsic2ItaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3IiwiaW50ZXJ2aWV3X2RlbW9fdHJhbnNwb3J0X2FwcCFiOTIzNTk3Il19.EmVhwkI1xYjrqoULgzg3nZ1UsGP-igbQNgdy-vkf_2hPcMHCYT3MO0PQLeZmsyh9I9LZQ5XObW-43VSi0c_eKOjfQ8ObU_evNHRNj3LLFCmK0nHFFeDRQsL95WQLLs8juYdLl7ePJ4u49M1sJweo-bS40BUcqrTVxVHOFrly-My72Py5uSagh2OHCLzor21LguYUcDMVQ6sCEfSpmd9sR9kEi-F94l5Mp-gwrJI8k8HT4AZB6oQlrqoB4jZcYhf5-5NPjL6ANN_deQp_I3e2fls-F_GT3Y4cTg_B5VWz1nQJK1ETNUwruhEsZJphuCnvvntY2ECA_0jzyhGw7HNJng",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/transports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/get-token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "YOUR_CLIENT_ID",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "YOUR_CLIENT_SECRET",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "YOUR_SCOPE",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/get-token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-token"
+					]
+				},
+				"description": "Generated from cURL: curl --location --request POST 'http://localhost:8080/get-token' \\\r\n--header 'Content-Type: application/x-www-form-urlencoded' \\\r\n--data-urlencode 'grant_type=client_credentials' \\\r\n--data-urlencode 'client_id=YOUR_CLIENT_ID' \\\r\n--data-urlencode 'client_secret=YOUR_CLIENT_SECRET' \\\r\n--data-urlencode 'scope=YOUR_SCOPE'"
+			},
+			"response": []
+		},
+		{
+			"name": "https://interview-demo-transport-backend.cfapps.eu12.hana.ondemand.com/transports",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/10.3.1"
+					},
+					{
+						"key": "authorization",
+						"value": "Beaerer <TOKEN_GOES_HERE>"
+					}
+				],
+				"url": {
+					"raw": "https://interview-demo-transport-backend.cfapps.eu12.hana.ondemand.com/transports",
+					"protocol": "https",
+					"host": [
+						"interview-demo-transport-backend",
+						"cfapps",
+						"eu12",
+						"hana",
+						"ondemand",
+						"com"
+					],
+					"path": [
+						"transports"
+					]
+				},
+				"description": "Generated from cURL: curl --request GET \\\r\n --url https://interview-demo-transport-backend.cfapps.eu12.hana.ondemand.com/transports \\\r\n --header 'User-Agent: insomnia/10.3.1' \\\r\n --header 'authorization: Beaerer <TOKEN_GOES_HERE>'"
+			},
+			"response": []
+		},
+		{
+			"name": "https://mbn-provider.authentication.eu12.hana.ondemand.com/oauth/token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "response_type",
+							"value": "token",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "sb-interview_demo_transport_app!b923597",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "e5a58e12-6849-4833-8800-5eee585f347c$H0EkGqSXYJXVJTOMOocIcfufzbPmpeastGoMvrbKfIQ=",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "interview_demo_transport_app!b923597.transportread",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mbn-provider.authentication.eu12.hana.ondemand.com/oauth/token",
+					"protocol": "https",
+					"host": [
+						"mbn-provider",
+						"authentication",
+						"eu12",
+						"hana",
+						"ondemand",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					]
+				},
+				"description": "Generated from cURL: curl --request POST \\\r\n --url https://mbn-provider.authentication.eu12.hana.ondemand.com/oauth/token \\\r\n --header 'Content-Type: application/x-www-form-urlencoded' \\\r\n --data grant_type=client_credentials \\\r\n --data response_type=token \\\r\n --data 'client_id=sb-interview_demo_transport_app!b923597' \\\r\n --data 'client_secret=e5a58e12-6849-4833-8800-\r\n5eee585f347c$H0EkGqSXYJXVJTOMOocIcfufzbPmpeastGoMvrbKfIQ=' \\\r\n --data 'scope=interview_demo_transport_app!b923597.transportread'"
+			},
+			"response": []
+		}
+	]
+}
