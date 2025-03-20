@@ -26,6 +26,8 @@ A Java application designed to simulate client operations that interact with the
 Operation: Makes a POST request to `/get-token` to retrieve an OAuth token, then uses this token in a GET request to `/transports`.
 Output: Displays the OAuth token and transport data received from the server.
 
+## Testing with Postman collection
+The feautures can ve tested with the provided postman collection.
 
 ## Running the Application
 To run and test the Spring Boot application:
